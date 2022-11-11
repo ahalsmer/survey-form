@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css"> 
+  </head>
+<h1 id="title">Legacy Responsive Web Design Course Survey</h1>
+<p id="description">Please provide some feedback on your experience with the course you are wrapping up!</p>
+
+<form id="survey-form" action="enter-your-name">
+  <label id="name-label"><strong>Name:</strong></label> 
+  <br>
+  <input type="text" id="name" placeholder="Enter Your Name" required>
+  <br><br>
+  <label id="email-label"><strong>Email:</strong></label> 
+  <br>
+  <input type="email" id="email" placeholder="Enter Your Email" required>
+  <br><br>
+  <label id="number-label"><strong>Age:</strong></label> 
+  <br>
+  <input id="number" type="number" placeholder="Age" min="10" max="150">
+  <br><br>
+  <label id="label"><strong>How do you feel about taking another freeCodeCamp course?</strong></label> 
+  <br>
+  <select id="dropdown">
+    <option value="default">--Please select your current feelings--</option>
+    <option value="two-thumbs-down">I would rather take more programming courses elsewhere.</option>
+    <option value="one-thumb-up">I wouldnt, but I would recommend freeCodeCamp courses to a friend.</option>
+    <option value="two-thumbs-up">I would take another freeCodeCamp course in the future, and I want to tell all my friends about it!</option>
+    </select>
+    <br><br><br>
+    <label for="language"><strong>What language gave you a harder time?</strong>
+    <br>
+    <input type="radio" value="HTML" name="language" id="language">HTML<br>
+    <input type="radio" value="CSS" name="language" id="language">CSS<br>
+    <input type="radio" value="Not Sure" name="language" id="language">Not Sure<br>
+    </label>
+    <br><br>
+    <label id="label"><strong>What features did you like most in this course?</strong></label> 
+    <br>
+    <label for="guides"><input id="guides" type="checkbox" name="guides" value="guides"> The Written instructions and Theory</label>
+    <br>
+    <label for="problem-solving"><input id="problem-solving" type="checkbox" name="problem-solving" value="problem-solving"> Problem Solving with Code</label>
+    <br>
+    <label for="projects"><input id="projects" type="checkbox" name="projects" value="projects"> Final Projects</label>
+    <br><br>
+    <div id="goals">
+      <label for="goals">What are your goals with programming?</label>
+      <br><br>
+      <textarea id="goals" name="goals"
+          rows="5" cols="33">
+I could marry it!
+      </textarea>
+      <br><br><br>
+      <button type="submit" id="submit">Submit Survey</button>
+      </div>
+</form>
+</html>

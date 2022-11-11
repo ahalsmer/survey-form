@@ -1,0 +1,21 @@
+#title {
+  text-align: center;
+  font-family: Andale Mono, monospace;
+
+}
+#description {
+  text-align: center;
+  font-family: Andale Mono, monospace;
+}
+#survey-form {
+  text-align: center; 
+  font-family: Andale Mono, monospace;
+  background-color: Lavender;
+}
+#dropdown {
+  width: 250;
+}
+#goals div {
+  margin-left: auto;
+  margin-right: auto;
+}
